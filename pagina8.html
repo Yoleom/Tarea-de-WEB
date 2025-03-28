@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maravillas del Universo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #0d1b2a;
+            color: #e0e1dd;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #1b263b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .image-placeholder {
+            width: 100%;
+            height: 300px;
+            background-color: #415a77;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #e0e1dd;
+            margin: 20px 0;
+        }
+        .button-32 {
+            background-color: #ff6b6b;
+            border-radius: 12px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 10px 15px;
+            text-align: center;
+            transition: 200ms;
+            width: 100%;
+            box-sizing: border-box;
+            border: 0;
+            font-size: 16px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            margin-top: 10px;
+        }
+        .button-32:not(:disabled):hover,
+        .button-32:not(:disabled):focus {
+            outline: 0;
+            background: #ff8787;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, .2), 0 3px 8px 0 rgba(255, 255, 255, .15);
+        }
+        .button-32:disabled {
+            filter: saturate(0.2) opacity(0.5);
+            -webkit-filter: saturate(0.2) opacity(0.5);
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Maravillas del Universo</h1>
+        <img src="imagenes/galaxia.jpg" alt="Galaxia en el espacio" style="width: 100%; height: auto; margin: 20px 0;">
+        <p>El universo está lleno de misterios y maravillas. Desde galaxias lejanas hasta agujeros negros, cada rincón del cosmos esconde historias fascinantes. 
+           Se estima que existen más de 2 billones de galaxias en el universo observable, cada una con miles de millones de estrellas.</p>
+        <p>La Vía Láctea, nuestra galaxia, es solo una de muchas en el vasto cosmos. Alberga sistemas solares, nebulosas y fenómenos impresionantes 
+           que desafían nuestra comprensión del espacio y el tiempo.</p>
+        
+        <button class="button-32" role="button" onclick="location.href='index.html'">Ir a Página 1</button>
+        <button class="button-32" role="button" onclick="location.href='pagina2.html'">Ir a Página 2</button>
+        <button class="button-32" role="button" onclick="location.href='pagina3.html'">Ir a Página 3</button>
+        <button class="button-32" role="button" onclick="location.href='pagina4.html'">Ir a Página 4</button>
+        <button class="button-32" role="button" onclick="location.href='pagina5.html'">Ir a Página 5</button>
+        <button class="button-32" role="button" onclick="location.href='pagina6.html'">Ir a Página 6</button>
+        <button class="button-32" role="button" onclick="location.href='pagina7.html'">Ir a Página 7</button>
+        
+        <button class="button-32" role="button" onclick="location.href='pagina9.html'">Ir a Página 9</button>
+        <button class="button-32" role="button" onclick="location.href='pagina10.html'">Ir a Página 10</button>
+    </div>
+</body>
+</html>
